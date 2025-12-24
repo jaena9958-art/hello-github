@@ -5,6 +5,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            // # step 2 과제
             int sum = 0; // sum이라는 연산자가 0.
          
             while (true) {
@@ -24,4 +25,5 @@ public class Main {
 
         reader.close();
     }
+
 }
